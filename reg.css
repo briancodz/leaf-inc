@@ -5,22 +5,26 @@ body {
     background-size: cover;
 
 }
-p{
-    color: black;
+
+p1{
+    color: wheat;
     font-size: large;
     font-style: italic;
     font-weight: bolder;
 }
-p2{
-    color: white;
-    margin-bottom: 2em;
+
+p3{
+    color: black;
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
 }
 
 
 /* Add padding to containers*/
 .container {
   
-    padding: 70px; 
+    padding: 45px; 
     align-items: center;
     justify-content: center;
     color: rgb(0, 0, 0);
@@ -62,7 +66,7 @@ hr {
 }
 
 /* set a style for the submit/register button */
-.signinbtn {
+.registerbtn {
     background-color: rgb(90, 19, 84);
     color: white;
     padding: 16px 20px;
@@ -72,24 +76,28 @@ hr {
     width: 100%;
     opacity: 0.9;
     border-radius: 50px;
-    margin-bottom: 2em;
 
 }
-.btn-sign-up{
-    background-color: rgb(90, 19, 84);
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-    border-radius: 50px;
-    margin-top: 2em;
-
-}
-
 
 .registerbtn:hover {
     opacity: 1;
 }
+
+/* Add color to the links*/
+a {
+    
+    color: white;
+
+}
+
+/* Set a grey background color and center the text of the sign in section */
+
+.signin {
+    background-color: rgb(90, 19, 84);
+    color: white;
+    text-align: center;
+    padding: 3px;
+    margin: auto;
+    border-radius: 50px;
+}
+
